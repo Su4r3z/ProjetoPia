@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+}
+header {
+  background-color: #cdf2d6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+}
+
+header .logo img {
+  width: 75px;
+}
+
+header .busca {
+  display: flex;
+  align-items: center;
+  width: 640px;
+  background-color: #97c4ad;
+  border-radius: 10px;
+}
+header .busca input {
+  width: 620px;
+  height: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #97c4ad;
+  border: 2px solid #97c4ad;
+  color: #e6fcd9;
+}
+
+header .busca input::placeholder {
+  color: #e6fcd9;
+}
+header .busca img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  color: #e6fcd9;
+}
