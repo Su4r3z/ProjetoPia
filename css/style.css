@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   outline: 0;
+  text-decoration: none;
 }
 header {
   background-color: #cdf2d6;
@@ -42,4 +43,37 @@ header .busca img {
   height: 20px;
   margin: 10px;
   color: #e6fcd9;
+  cursor: pointer;
+}
+
+header .menu a {
+  padding: 10px;
+  color: #36802D;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+header .menu a:hover {
+  background:#97c4ad;
+  border-radius: 30px;
+  color: #e6fcd9;
+}
+.container .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .banner {
+  background-image: url(../img/RECICLAGEM.jpg);
+  background-repeat: repeat-x;
+  background-position:left top;
+  height: 100vh;
+}
+
+.container .mapa {
+  background-color: #97c4ad;
+  height: 600px;
+  width: 600px;
+  border-radius: 30px;
 }
