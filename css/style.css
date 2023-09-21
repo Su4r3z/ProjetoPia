@@ -21,12 +21,14 @@ header .logo img {
 header .busca {
   display: flex;
   align-items: center;
-  width: 640px;
+  justify-content: space-between;
+  width: 700px;
   background-color: #97c4ad;
   border-radius: 10px;
+  margin-left:5% ;
 }
 header .busca input {
-  width: 620px;
+  width: 700px;
   height: 15px;
   padding: 15px;
   border-radius: 10px;
@@ -48,7 +50,7 @@ header .busca img {
 
 header .menu a {
   padding: 10px;
-  color: #36802D;
+  color: #8E978D;
   font-weight: 500;
   font-size: 15px;
   transition: 0.4s;
@@ -58,12 +60,9 @@ header .menu a:hover {
   background:#97c4ad;
   border-radius: 30px;
   color: #e6fcd9;
+  transition: 0.4s;
 }
-.container .banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .container .banner {
   background-image: url(../img/RECICLAGEM.jpg);
   background-repeat: repeat-x;
@@ -71,9 +70,57 @@ header .menu a:hover {
   height: 100vh;
 }
 
-.container .mapa {
+/* .container .mapa {
   background-color: #97c4ad;
   height: 600px;
   width: 600px;
   border-radius: 30px;
+} */
+
+/* .container .banner {
+  display: flex;
+  align-items: center;  
+  justify-content: space-around;
+} */
+
+footer {
+  background-color: #cdf2d6;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .icons {
+  margin: 15px;
+}
+footer .icons img {
+  width: 64px;
+  margin: 20px;
+}
+footer .icons .topicos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .icons .topicos a{
+  color: #8E978D;
+  padding: 10px;
+  margin: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+footer .icons .topicos a:hover {
+  color: #e6fcd9;
+  background: #97c4ad;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+footer .direitos {
+  text-align: center;
+  color: #8E978D;
+  font-size: 18px;
+  font-weight: 500;
 }
